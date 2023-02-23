@@ -1,0 +1,499 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url(./images/fondomain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    background-image: url(./images/fondoheader.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+nav>a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#logo {
+    width: 8%;
+    border: 2px dotted black;
+}
+
+#cake {
+    width: 80%;
+    margin-top: 1rem;
+    border: 5px solid beige;
+}
+
+.encima,
+.textoencima {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.boton {
+    display: none;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#strawberry-cake {
+    width: 30%;
+    border: 5px solid beige;
+}
+
+.texto1 {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.titulo,
+.titulo2,
+.titulo3 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+
+}
+
+#petals-cake,
+#one-cake,
+#white-cake {
+    width: 30vw;
+    height: 50vh;
+    border: 5px solid beige;
+}
+
+.contenedortexto {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.747);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#cake-chocolate {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    border: 5px solid beige;
+}
+
+.contenedorcontacto {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.emails {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 2rem;
+}
+
+.link,
+.link2 {
+    background-color: rgba(255, 255, 255, 0.788);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.link2 {
+    margin-left: 0.5rem;
+}
+.link>a {
+    color: black;
+    text-decoration: none;
+}
+
+.link2>a {
+    color: black;
+    text-decoration: none;
+}
+
+table,
+th,
+td {
+    border: 4px solid rgb(74, 248, 234);
+    border-collapse: collapse;
+}
+
+.detalles {
+    width: 5rem;
+}
+
+tr {
+    height: 5rem;
+}
+
+th {
+    padding: 0.5rem;
+    font-size: larger;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+.tabla {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table {
+    background-color: rgba(255, 192, 192, 0.603);
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.thecakes {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 50%;
+    padding-bottom: 2rem;
+}
+
+.listas {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(245, 245, 220, 0.671);
+}
+
+#thecake {
+    margin-bottom: 2rem;
+    border: 5px solid beige;
+}
+
+.letra {
+    padding-bottom: 1rem;
+}
+
+.letra2 {
+    padding-bottom: 30%;
+}
+
+#cakefruit {
+    border: 5px solid beige;
+}
+
+.imagesraffle {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+#cakecake,
+#browncake {
+    width: 30vw;
+    height: 40vh;
+    margin-top: 1rem;
+    border: 5px solid beige;
+}
+
+.rafflebox {
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    border: 2px solid black;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    background-color: rgba(248, 195, 195, 0.664);
+}
+
+form>h3 {
+    display: flex;
+    text-align: center;
+    width: 80%;
+
+}
+
+.formcaja {
+    display: flex;
+    flex-direction: row;
+    width: 36vw;
+    margin-top: 1rem;
+    border: none;
+}
+
+.cajasform {
+    width: 18vw;
+    border: none;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    max-width: 5vw;
+    height: 1rem;
+    margin-right: 0.3rem;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+}
+
+.gender {
+    display: flex;
+    flex-wrap: wrap;
+    width: 18vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 0.4rem;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+    border: none;
+}
+
+.gender>label {
+    margin-right: 0.2vw;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+}
+
+.phone {
+    display: flex;
+    height: 1rem;
+    border: none;
+}
+
+.phone>label {
+    margin-right: 2vw;
+}
+
+.tamaño {
+    margin-top: 3rem;
+    height: 1rem;
+    border: none;
+}
+
+.grantexto {
+    margin-top: 1rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.grantexto>input {
+    height: 4rem;
+    max-width: 18vw;
+}
+
+.ultcaja {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+footer {
+    background-image: url(./images/fondoheader.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    border-top: 2px solid black;
+}
+
+footer>p {
+    background: rgba(255, 255, 255, 0.733);
+    padding: 0.5rem;
+    border: 3px solid rgb(255, 163, 163);
+    border-radius: 10px;
+}
+
+footer>p:hover {
+    background: rgb(255, 167, 167);
+    padding: 0.5rem;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    nav a {
+        padding: 0.2rem;
+    }
+    .contenedor {
+        flex-direction: column;
+    }
+    .texto1 {
+        width: 80%;
+    }
+    #strawberry-cake {
+        width: 50%;
+        margin-top: 0.5rem;
+    }
+    .caja {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #petals-cake,
+    #one-cake,
+    #white-cake {
+        width: 60vw;
+        margin-bottom: 0.5rem;
+    }
+
+    .contenedortexto {
+        width: 60vw;
+    }
+
+    .emails {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .link,
+    .link2 {
+        margin-top: 0.5rem;
+    }
+
+    table {
+        margin: 1rem;
+        font-size: small;
+    }
+
+    .courses {
+        flex-direction: column;
+    }
+
+    .listas,
+    .thecakes {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 1rem;
+    }
+
+    .letra2 {
+        padding-bottom: 1rem;
+    }
+
+    form {
+        width: 80vw;
+        font-size: x-small;
+        padding-bottom: 1rem;
+    }
+
+    .imagesraffle {
+        width: 60vw;
+    }
+
+    #cakecake,
+    #browncake {
+        width: 60vw;
+    }
+}
+@media only screen and (min-width: 1024px){
+    body {
+        font-size: large;
+    }
+    .listas {
+        margin-bottom: 1rem;
+    }
+}
